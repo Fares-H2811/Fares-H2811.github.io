@@ -60,8 +60,3 @@ As a dedicated **volleyball player**, I believe in teamwork and strategy, which 
 - **IYMC Bronze Medalist**
 - **MOS (Microsoft Office Specialist)**
 - **SINGA GLOBAL FINAL (SINGA GF) 2022 Participant**
-
----
-
-## References
-Available upon request.
