@@ -1,103 +1,165 @@
-# Fares Hesham Portfolio Website
+# Fares Hesham Mahmoud - Electronics Engineer & Data Analyst
 
-## Overview
-A modern, professional portfolio website showcasing your engineering expertise and data analysis projects. Built with a distinctive technical aesthetic that reflects your dual focus on Electronics & Communication Engineering and Data Analysis.
+**📍 Location:** Sharqia, Egypt | **📧 Email:** fareshesham6118@gmail.com | **💼 LinkedIn:** [fares-hesham-a49151240](https://www.linkedin.com/in/fares-hesham-a49151240) | **🐙 GitHub:** [@Fares-H2811](https://github.com/Fares-H2811)
 
-## ✨ NEW FEATURES & PROFESSIONAL TOUCHES
+---
 
-### 🎨 Enhanced Skill Visualization
-- **Unique Colors for Each Skill**: Every skill has its own distinctive color gradient
-  - C/C++: Blue gradient (#00599C)
-  - Python: Python blue & yellow (#3776AB, #FFD43B)
-  - MATLAB: Teal & orange (#0076A8, #FF8C00)
-  - Excel: Green gradient (#217346)
-  - Power BI: Gold & orange (#F2C811, #E97627)
-  - SQL: Red & teal (#CC2927, #00758F)
-- **Skill Icons**: Each skill displays a relevant icon for better visual recognition
-- **Glow Effects**: Hover over skills to see beautiful glow effects
-- **Updated Levels**: Python and MATLAB correctly set to "Beginner" (40% and 35%)
+## 🎯 About Me
 
-### 📊 Impact Metrics Section
-- Animated counters showing key achievements
-- 4 key metrics: Projects, Technical Skills, Awards, Weekly Learning Hours
-- Eye-catching icons and professional layout
-- Numbers animate when scrolled into view
+I'm an **Electronics & Communication Engineering student** with a proven track record in **data analysis and business intelligence**. My engineering background ensures structured, reliable solutions, while my data expertise delivers actionable insights through professional dashboards and analytics.
 
-### 🚀 "Currently Learning" Section
-- Showcases active learning commitment
-- 3 learning tracks with progress bars:
-  - SQL & Database Design (55%)
-  - Power BI Advanced Features (60%)
-  - Python for Data Analysis (40%)
-- Timeline showing start and target dates
-- Commitment statement highlighting 10+ hours weekly dedication
+### Core Expertise:
+- **Embedded Systems & Microcontroller Design** (Primary Engineering Focus)
+- **Data Analysis & Visualization** (Freelance Specialization)
+- **Dashboard Development** (Excel, Power BI, SQL)
+- **Business Intelligence & Insights** (Solving Real Problems)
 
-### 📄 Resume CTA Section
-- Prominent call-to-action before contact section
-- Professional messaging
-- Dual buttons: Download Resume + Contact
-- Gradient background for visual emphasis
+---
 
-### 💼 Professional Enhancements
-- Skill items now have background cards with hover effects
-- Progress bars with smooth animations
-- Better spacing and visual hierarchy
-- Enhanced mobile responsiveness
-- Professional color coding throughout
+## 💼 What I Offer
 
-## 🎯 ADDITIONAL PROFESSIONAL SUGGESTIONS
+### For Recruiters:
+- Electronics engineer with embedded systems expertise
+- Hands-on experience with critical projects and training programs
+- Proven ability to learn quickly and deliver results
+- Ready for full-time engineering roles or data analysis positions
+- Holder of multiple certifications and awards
 
-### Immediate Improvements You Can Make:
+### For Business Clients:
+- **Custom Data Dashboards** - Interactive Excel dashboards that transform raw data into actionable insights
+- **Sales Analysis & Performance Tracking** - Monitor metrics that matter to your business
+- **Workforce Analytics** - Optimize your HR operations with data-driven insights
+- **Regional & Product Performance** - Understand your market and growth opportunities
+- **Quick Turnaround** - Dedicated to fast, professional delivery
 
-1. **Add Real Project Links**
-   - Replace `#` placeholders with actual GitHub repository links
-   - Add live demo links if projects are deployed
-   - Consider hosting dashboards on Tableau Public or similar
+---
 
-2. **Create Project Case Studies**
-   - Add detailed project pages with:
-     - Problem statement
-     - Your approach and methodology
-     - Tools and techniques used
-     - Results and insights
-     - Screenshots/visualizations
-     - Lessons learned
+## 🛠️ Technical Expertise
 
-3. **Blog Section** (Recommended)
-   ```html
-   <!-- Add after Projects section -->
-   <section id="blog" class="blog">
-       <h2>Latest Insights</h2>
-       <p>Sharing my learning journey and technical discoveries</p>
-       <!-- Blog cards with Medium/Dev.to posts -->
-   </section>
-   ```
+### Primary Skills (Advanced)
+| Skill | Proficiency | Application |
+|-------|-------------|-------------|
+| **C / C++** | 80% | Embedded systems, microcontroller programming, system-level design |
+| **Excel** | 85% | Advanced formulas, pivot tables, macro automation, dashboard creation |
+| **Embedded Systems** | 70% | Microcontroller design, hardware interfacing, embedded solutions |
+| **Git/GitHub** | 75% | Version control, project collaboration, code management |
 
-4. **Testimonials/Recommendations**
-   - Add section with LinkedIn recommendations
-   - Include feedback from professors, training supervisors
-   - Format as quote cards with photos
+### Secondary Skills (Learning)
+| Skill | Proficiency | Application |
+|-------|-------------|-------------|
+| **SQL** | 45% | Database design, query optimization, data extraction |
+| **Python** | 30% | Data analysis, automation, ML fundamentals |
+| **Power BI** | 30% | Enterprise dashboards, advanced visualizations |
+| **MATLAB** | 35% | Signal processing, numerical analysis |
 
-5. **GitHub Activity Integration**
-   - Embed GitHub contribution graph
-   - Show recent commits/activity
-   - Link to pinned repositories
+### Soft Skills
+✅ Analytical Thinking | ✅ Problem Solving | ✅ Attention to Detail | ✅ Communication | 
+✅ Team Collaboration | ✅ Critical Thinking | ✅ Quick Adaptation | ✅ Presentation Skills
 
-### Content Enhancements:
+---
 
-1. **Update Contact Information**
-   - Replace `fares@example.com` with your actual email
-   - Add phone number (optional)
-   - Add other social media (Twitter, Medium, etc.)
+## 📊 Featured Projects
 
-2. **Add More Context to Projects**
-   - Data size (e.g., "Analyzed 10,000+ records")
-   - Time spent on project
-   - Technologies used in detail
-   - Business impact/insights discovered
+### 1. **Sales Analysis Dashboard**
+- Interactive Excel dashboard with 500+ data points
+- Dynamic filtering, trend analysis, and visual KPI tracking
+- Automated calculations and professional visualizations
+- **Impact:** Enables quick sales performance insights and decision-making
 
-3. **Certifications Section**
-   - Create visual badges for certifications
+### 2. **Regional Sales Performance Dashboard**
+- Multi-region comparison across Egyptian markets
+- Sales representative performance tracking
+- Product category breakdown and comparative analysis
+- **Impact:** Identifies top performers and growth opportunities
+
+### 3. **HR Analytics Dashboard**
+- Workforce analytics across departments
+- Salary analysis, performance distribution, overtime tracking
+- 500+ employee records analyzed across 6 departments
+- **Impact:** Supports HR decision-making and workforce optimization
+
+---
+
+## 🎓 Training & Education
+
+### 📚 Current Education
+**Zagazig University** | B.Sc. Electronics & Communication Engineering  
+Oct 2023 – Present | *Expected Graduation: July 2028*
+
+### 💡 Professional Training
+**DEPI Data Analyst Trainee** | *Nov 2025 – Jun 2026*  
+Intensive program: Data analysis fundamentals, SQL, Power BI, Excel dashboards, statistical methods
+
+**NTI Summer Training** | *July 2025*  
+Microcontroller-Based Design: Embedded systems, hardware interfacing, system design
+
+---
+
+## 🏆 Honors & Awards
+
+| Award | Achievement | Date |
+|-------|-------------|------|
+| 🥇 AMO Gold Medalist | American Math Olympiads - Top 78 | Dec 2021 |
+| 📜 MOS Specialist | Microsoft Office Specialist - PowerPoint | Mar 2022 |
+| 🥉 IYMC Bronze Medalist | International Youth Math Competition | Dec 2022 |
+| 🌟 IAAC Pre-Finalist | International Astronomy Competition | Jul 2022 |
+| ✅ MATLAB Certified | MATLAB & Simulink Onramp | Oct 2024 |
+
+---
+
+## 📈 Key Metrics
+
+- **3+ Data Projects** completed and deployed
+- **6+ Technical Skills** across engineering and data domains
+- **500+ Records** analyzed in professional dashboards
+- **10+ Hours/Week** dedicated to continuous learning
+- **2 Professional Trainings** completed (DEPI, NTI)
+- **5 Certifications & Awards** achieved
+
+---
+
+## 🤝 How to Work With Me
+
+### 📋 Hire for Engineering Projects
+- Embedded systems development
+- Microcontroller programming
+- System design and hardware interfacing
+- Technical problem-solving
+
+### 📊 Hire for Data Analysis & Dashboards
+- Custom Excel dashboard creation
+- Data visualization and analysis
+- Business intelligence insights
+- Performance metric tracking
+
+### 💬 Get in Touch
+- **Email:** fareshesham6118@gmail.com
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/fares-hesham-a49151240)
+- **GitHub:** [View my code](https://github.com/Fares-H2811)
+- **Download CV:** [Fares_Hesham_CV.pdf](assets/Fares_Hesham_CV.pdf)
+
+---
+
+## ✨ Why Choose Me?
+
+✅ **Structured, Engineering-Mindset Approach** - Solutions that are reliable and scalable  
+✅ **Proven Track Record** - 3+ successful data projects and professional training completion  
+✅ **Full-Spectrum Skills** - Engineering fundamentals + modern data tools  
+✅ **Continuous Learner** - 10+ hours/week invested in skill expansion  
+✅ **Professional Communication** - Clear explanations for both technical and non-technical stakeholders  
+✅ **Quick Turnaround** - Efficient delivery without compromising quality  
+
+---
+
+## 🚀 Currently Available For
+
+- ✅ Full-time engineering positions
+- ✅ Freelance data analysis projects
+- ✅ Custom dashboard development
+- ✅ Consulting and technical guidance
+- ✅ Embedded systems development
+
+**Status:** Available for opportunities | Ready to discuss your project needs
    - Add links to credential verification
    - Group by category (Microsoft, Technical, Academic)
 
