@@ -1,177 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Fares Hesham | Portfolio</title>
+<title>Fares Hesham Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
 </head>
-
 <body>
 
-
 <!-- NAVBAR -->
-<nav>
-    <div class="logo">FH</div>
+<nav class="navbar">
+    <div class="logo">Fares Hesham</div>
 
-    <ul>
+    <ul class="nav-links">
         <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
-
-
 <!-- HERO -->
 <section id="home" class="hero">
 
-<div class="hero-left">
-
-<h1>Fares Hesham</h1>
-
-<h2 class="typing"></h2>
-
-<p>
-Engineering-minded data analyst building structured dashboards and technical systems
-that transform complexity into clear, actionable insights.
-</p>
-
-<div class="buttons">
-
-<a href="#projects" class="btn">View Projects</a>
-
-<a href="assets/cv.pdf" class="btn secondary" download>Download CV</a>
-
-</div>
-
-</div>
-
-
-<div class="hero-right">
-
-  <div class="profile-wrapper">
-    <div class="profile-frame">
-        <img src="profile.jpg" alt="Fares Hesham">
+    <div class="profile-wrapper">
+        <div class="profile-frame">
+            <img src="assets/profile.jpg" alt="Fares Hesham">
+        </div>
     </div>
-</div>
 
+    <div class="hero-text">
+        <h1>Fares Hesham</h1>
+        <p>
+            Engineering student passionate about data analytics, dashboards,
+            and technology-driven insights that help businesses make smarter decisions.
+        </p>
 
-</div>
+        <div class="hero-buttons">
+            <a href="assets/Fares_Hesham_CV.pdf" class="btn" download>Download CV</a>
+            <a href="#projects" class="btn-outline">View Projects</a>
+        </div>
+    </div>
 
 </section>
-
-
 
 <!-- ABOUT -->
-<section class="about">
+<section id="about" class="about">
+    <h2>About Me</h2>
 
-<h2>About Me</h2>
-
-<p>
-Hello! I’m an Electronics and Communication Engineering student passionate about building
-practical, well-structured systems — whether in engineering projects or data-driven analysis.
-</p>
-
-<p>
-Alongside my engineering path, I’m developing a parallel track in data analysis where I create
-structured and visually clear dashboards that transform raw data into actionable insights.
-</p>
+    <p>
+        I am an Electronics and Communication Engineering student with a strong interest
+        in data analytics, visualization, and business intelligence. I enjoy transforming
+        complex datasets into meaningful insights that support decision-making.
+    </p>
 
 </section>
-
-
 
 <!-- PROJECTS -->
-<section class="projects">
+<section id="projects" class="projects">
 
-  <div class="project-card">
-      <img src="project1.png" alt="Sales Dashboard">
-      <h3>Sales Analysis Dashboard</h3>
-  </div>
+    <h2>Projects</h2>
 
-  <div class="project-card">
-      <img src="project2.png" alt="Regional Sales">
-      <h3>Regional Performance</h3>
-  </div>
+    <div class="project-grid">
 
-  <div class="project-card">
-      <img src="project3.png" alt="HR Dashboard">
-      <h3>HR Analytics</h3>
-  </div>
+        <div class="project-card">
+            <img src="assets/project1.png" alt="Sales Dashboard">
+            <h3>Sales Analysis Dashboard</h3>
+            <p>Interactive Power BI dashboard analyzing sales performance and KPIs.</p>
 
-</section>
+            <div class="project-buttons">
+                <a href="#" class="btn">View Details</a>
+                <a href="#" class="btn-outline">GitHub</a>
+            </div>
+        </div>
 
+        <div class="project-card">
+            <img src="assets/project2.png" alt="Regional Performance">
+            <h3>Regional Sales Performance</h3>
+            <p>Regional analysis with representative performance metrics.</p>
 
+            <div class="project-buttons">
+                <a href="#" class="btn">View Details</a>
+                <a href="#" class="btn-outline">GitHub</a>
+            </div>
+        </div>
 
-<!-- SKILLS -->
-<section id="skills" class="skills">
+        <div class="project-card">
+            <img src="assets/project3.png" alt="HR Dashboard">
+            <h3>HR Analytics Dashboard</h3>
+            <p>Workforce insights including salary, performance, and overtime trends.</p>
 
-<h2>Skills</h2>
+            <div class="project-buttons">
+                <a href="#" class="btn">View Details</a>
+                <a href="#" class="btn-outline">GitHub</a>
+            </div>
+        </div>
 
-<div class="skills-grid">
-
-<div>Excel</div>
-<div>SQL</div>
-<div>Python</div>
-<div>Power BI</div>
-<div>C / C++</div>
-<div>MATLAB</div>
-
-</div>
-
-</section>
-
-
-
-<!-- EXPERIENCE -->
-<section id="experience" class="experience">
-
-<h2>Experience & Education</h2>
-
-<ul>
-
-<li>DEPI — Data Analyst Trainee</li>
-<li>NTI — Microcontroller Training</li>
-<li>Zagazig University — Electronics Engineering</li>
-<li>Obour STEM School</li>
-
-</ul>
+    </div>
 
 </section>
-
-
 
 <!-- CONTACT -->
 <section id="contact" class="contact">
 
-<h2>Contact</h2>
+    <h2>Contact</h2>
 
-<p>Email: fareshesham6118@gmail.com</p>
-
-<p>
-<a href="https://github.com/Fares-H2811">GitHub</a> |
-<a href="#">LinkedIn</a>
-</p>
+    <p>Email: fares@example.com</p>
+    <p>LinkedIn: Your LinkedIn</p>
 
 </section>
-
-
-
-<!-- MODALS -->
-<div id="modal" class="modal">
-    <span class="close" onclick="closeModal()">×</span>
-    <img id="modal-img">
-</div>
-
 
 <script src="script.js"></script>
 
