@@ -117,6 +117,58 @@
         </div>
     </section>
 
+    <!-- METRICS -->
+    <section class="metrics">
+        <div class="section-container">
+            <div class="metrics-grid">
+                <div class="metric-item">
+                    <div class="metric-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="metric-content">
+                        <span class="metric-number" data-target="3">0</span>
+                        <span class="metric-label">Data Projects</span>
+                        <p class="metric-desc">Excel dashboards analyzing 500+ records</p>
+                    </div>
+                </div>
+                
+                <div class="metric-item">
+                    <div class="metric-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="metric-content">
+                        <span class="metric-number" data-target="6">0</span>
+                        <span class="metric-label">Technical Skills</span>
+                        <p class="metric-desc">Programming & data analysis tools</p>
+                    </div>
+                </div>
+                
+                <div class="metric-item">
+                    <div class="metric-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="metric-content">
+                        <span class="metric-number" data-target="5">0</span>
+                        <span class="metric-label">Awards & Certifications</span>
+                        <p class="metric-desc">Academic and technical achievements</p>
+                    </div>
+                </div>
+                
+                <div class="metric-item">
+                    <div class="metric-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="metric-content">
+                        <span class="metric-number" data-target="10">0</span>
+                        <span class="metric-plus">+</span>
+                        <span class="metric-label">Hours Weekly Learning</span>
+                        <p class="metric-desc">Dedicated to skill development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- ABOUT -->
     <section id="about" class="about">
         <div class="section-container">
@@ -220,31 +272,46 @@
                             <h3>Programming</h3>
                         </div>
                         <div class="skill-items">
-                            <div class="skill-item">
-                                <div class="skill-info">
-                                    <span class="skill-name">C / C++</span>
-                                    <span class="skill-level">Advanced</span>
+                            <div class="skill-item" data-skill="c-cpp">
+                                <div class="skill-header">
+                                    <div class="skill-icon-small">
+                                        <i class="fas fa-code"></i>
+                                    </div>
+                                    <div class="skill-info">
+                                        <span class="skill-name">C / C++</span>
+                                        <span class="skill-level">Advanced</span>
+                                    </div>
                                 </div>
                                 <div class="skill-bar">
-                                    <div class="skill-progress" style="--progress: 85%"></div>
+                                    <div class="skill-progress" style="--progress: 85%" data-color="c-cpp"></div>
                                 </div>
                             </div>
-                            <div class="skill-item">
-                                <div class="skill-info">
-                                    <span class="skill-name">Python</span>
-                                    <span class="skill-level">Beginner</span>
+                            <div class="skill-item" data-skill="python">
+                                <div class="skill-header">
+                                    <div class="skill-icon-small">
+                                        <i class="fab fa-python"></i>
+                                    </div>
+                                    <div class="skill-info">
+                                        <span class="skill-name">Python</span>
+                                        <span class="skill-level">Beginner</span>
+                                    </div>
                                 </div>
                                 <div class="skill-bar">
-                                    <div class="skill-progress" style="--progress: 70%"></div>
+                                    <div class="skill-progress" style="--progress: 40%" data-color="python"></div>
                                 </div>
                             </div>
-                            <div class="skill-item">
-                                <div class="skill-info">
-                                    <span class="skill-name">MATLAB</span>
-                                    <span class="skill-level">Beginner</span>
+                            <div class="skill-item" data-skill="matlab">
+                                <div class="skill-header">
+                                    <div class="skill-icon-small">
+                                        <i class="fas fa-wave-square"></i>
+                                    </div>
+                                    <div class="skill-info">
+                                        <span class="skill-name">MATLAB</span>
+                                        <span class="skill-level">Beginner</span>
+                                    </div>
                                 </div>
                                 <div class="skill-bar">
-                                    <div class="skill-progress" style="--progress: 65%"></div>
+                                    <div class="skill-progress" style="--progress: 35%" data-color="matlab"></div>
                                 </div>
                             </div>
                         </div>
@@ -256,31 +323,46 @@
                             <h3>Data Analysis</h3>
                         </div>
                         <div class="skill-items">
-                            <div class="skill-item">
-                                <div class="skill-info">
-                                    <span class="skill-name">Excel (Advanced)</span>
-                                    <span class="skill-level">Advanced</span>
+                            <div class="skill-item" data-skill="excel">
+                                <div class="skill-header">
+                                    <div class="skill-icon-small">
+                                        <i class="fas fa-file-excel"></i>
+                                    </div>
+                                    <div class="skill-info">
+                                        <span class="skill-name">Excel (Advanced)</span>
+                                        <span class="skill-level">Advanced</span>
+                                    </div>
                                 </div>
                                 <div class="skill-bar">
-                                    <div class="skill-progress" style="--progress: 90%"></div>
+                                    <div class="skill-progress" style="--progress: 90%" data-color="excel"></div>
                                 </div>
                             </div>
-                            <div class="skill-item">
-                                <div class="skill-info">
-                                    <span class="skill-name">Power BI</span>
-                                    <span class="skill-level">Learning</span>
+                            <div class="skill-item" data-skill="powerbi">
+                                <div class="skill-header">
+                                    <div class="skill-icon-small">
+                                        <i class="fas fa-chart-pie"></i>
+                                    </div>
+                                    <div class="skill-info">
+                                        <span class="skill-name">Power BI</span>
+                                        <span class="skill-level">Learning</span>
+                                    </div>
                                 </div>
                                 <div class="skill-bar">
-                                    <div class="skill-progress" style="--progress: 60%"></div>
+                                    <div class="skill-progress" style="--progress: 60%" data-color="powerbi"></div>
                                 </div>
                             </div>
-                            <div class="skill-item">
-                                <div class="skill-info">
-                                    <span class="skill-name">SQL</span>
-                                    <span class="skill-level">Learning</span>
+                            <div class="skill-item" data-skill="sql">
+                                <div class="skill-header">
+                                    <div class="skill-icon-small">
+                                        <i class="fas fa-database"></i>
+                                    </div>
+                                    <div class="skill-info">
+                                        <span class="skill-name">SQL</span>
+                                        <span class="skill-level">Learning</span>
+                                    </div>
                                 </div>
                                 <div class="skill-bar">
-                                    <div class="skill-progress" style="--progress: 55%"></div>
+                                    <div class="skill-progress" style="--progress: 55%" data-color="sql"></div>
                                 </div>
                             </div>
                         </div>
@@ -315,6 +397,83 @@
                             <span class="tech-tag">Visual Design</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CURRENTLY LEARNING -->
+    <section id="learning" class="learning">
+        <div class="section-container">
+            <div class="learning-header">
+                <div class="learning-badge">
+                    <span class="pulse-dot"></span>
+                    <span>Active Learning Path</span>
+                </div>
+                <h2 class="learning-title">What I'm Currently Learning</h2>
+                <p class="learning-subtitle">Continuously expanding my technical toolkit through hands-on projects and structured learning</p>
+            </div>
+            
+            <div class="learning-grid">
+                <div class="learning-card primary">
+                    <div class="learning-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>SQL & Database Design</h3>
+                    <p>Mastering relational databases, query optimization, and data modeling through practical exercises</p>
+                    <div class="learning-progress">
+                        <div class="learning-progress-bar" style="--learning-progress: 55%">
+                            <span class="progress-label">55% Complete</span>
+                        </div>
+                    </div>
+                    <div class="learning-meta">
+                        <span><i class="fas fa-calendar"></i> Started Dec 2025</span>
+                        <span><i class="fas fa-target"></i> Target: Apr 2026</span>
+                    </div>
+                </div>
+                
+                <div class="learning-card secondary">
+                    <div class="learning-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Power BI Advanced Features</h3>
+                    <p>Building interactive dashboards with DAX, Power Query, and advanced visualizations</p>
+                    <div class="learning-progress">
+                        <div class="learning-progress-bar" style="--learning-progress: 60%">
+                            <span class="progress-label">60% Complete</span>
+                        </div>
+                    </div>
+                    <div class="learning-meta">
+                        <span><i class="fas fa-calendar"></i> Started Nov 2025</span>
+                        <span><i class="fas fa-target"></i> Target: Mar 2026</span>
+                    </div>
+                </div>
+                
+                <div class="learning-card tertiary">
+                    <div class="learning-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python for Data Analysis</h3>
+                    <p>Learning pandas, NumPy, and data manipulation libraries for scalable analysis workflows</p>
+                    <div class="learning-progress">
+                        <div class="learning-progress-bar" style="--learning-progress: 40%">
+                            <span class="progress-label">40% Complete</span>
+                        </div>
+                    </div>
+                    <div class="learning-meta">
+                        <span><i class="fas fa-calendar"></i> Started Jan 2026</span>
+                        <span><i class="fas fa-target"></i> Target: May 2026</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="learning-commitment">
+                <div class="commitment-icon">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <div class="commitment-text">
+                    <h4>Commitment to Growth</h4>
+                    <p>Dedicating 10+ hours per week to structured learning, practical projects, and skill development. Currently enrolled in DEPI Data Analyst track with focus on industry-ready competencies.</p>
                 </div>
             </div>
         </div>
@@ -581,6 +740,28 @@
         </div>
     </section>
 
+    <!-- RESUME CTA -->
+    <section class="resume-cta">
+        <div class="section-container">
+            <div class="resume-content">
+                <div class="resume-text">
+                    <h2>Like What You See?</h2>
+                    <p>Download my complete resume to learn more about my experience, projects, and technical capabilities. Available in PDF format.</p>
+                </div>
+                <div class="resume-actions">
+                    <a href="assets/Fares_Hesham_CV.pdf" class="btn btn-resume" download>
+                        <i class="fas fa-file-download"></i>
+                        Download Full Resume
+                    </a>
+                    <a href="#contact" class="btn btn-contact">
+                        <i class="fas fa-envelope"></i>
+                        Let's Connect
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- CONTACT -->
     <section id="contact" class="contact">
         <div class="section-container">
@@ -619,13 +800,13 @@
                         <span class="contact-link">@Fares-H2811 <i class="fas fa-arrow-right"></i></span>
                     </a>
                     
-                    <a href="mailto:fareshesham6118@gmail.com" class="contact-card">
+                    <a href="/cdn-cgi/l/email-protection#f59394879086db9d90869d9498b5908d9498859990db969a98" class="contact-card">
                         <div class="contact-icon">
                             <i class="fas fa-envelope"></i>
                         </div>
                         <h4>Email</h4>
                         <p>Send a message</p>
-                        <span class="contact-link">fareshesham6118@gmail.com <i class="fas fa-arrow-right"></i></span>
+                        <span class="contact-link"><span class="fareshesham6118@gmail.com" data-cfemail="fareshesham6118@gmail.com">[email&#160;protected]</span> <i class="fas fa-arrow-right"></i></span>
                     </a>
                     
                     <div class="contact-card">
@@ -669,7 +850,7 @@
                         <ul>
                             <li><a href="https://www.linkedin.com/in/fares-hesham-a49151240" target="_blank">LinkedIn</a></li>
                             <li><a href="https://github.com/Fares-H2811" target="_blank">GitHub</a></li>
-                            <li><a href="mailto:fares.hesham@example.com">Email</a></li>
+                            <li><a href="fareshesham6118@gmail.com">Email</a></li>
                         </ul>
                     </div>
                 </div>
@@ -679,12 +860,4 @@
                 <p>&copy; 2026 Fares Hesham Mahmoud. Built with precision and care.</p>
                 <div class="footer-social">
                     <a href="https://www.linkedin.com/in/fares-hesham-a49151240" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/Fares-H2811" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-</html>
+                    <a href="https://github.c

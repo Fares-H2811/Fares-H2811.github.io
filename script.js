@@ -91,20 +91,22 @@ const animateNumber = (element, target) => {
     const timer = setInterval(() => {
         current += increment;
         if (current >= target) {
-            element.textContent = target + '+';
+            element.textContent = target;
             clearInterval(timer);
         } else {
-            element.textContent = Math.floor(current) + '+';
+            element.textContent = Math.floor(current);
         }
     }, 16);
 };
 
+// Animate profile stats
 const statsObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             const statNumber = entry.target;
             const targetValue = parseInt(statNumber.textContent);
             animateNumber(statNumber, targetValue);
+            statNumber.textContent = targetValue + '+';
             statsObserver.unobserve(entry.target);
         }
     });
@@ -112,6 +114,37 @@ const statsObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.stat-number').forEach(stat => {
     statsObserver.observe(stat);
+});
+
+// Animate metrics section numbers
+const metricsObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const metricNumber = entry.target;
+            const targetValue = parseInt(metricNumber.getAttribute('data-target'));
+            
+            const duration = 2000;
+            const start = 0;
+            const increment = targetValue / (duration / 16);
+            let current = start;
+            
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= targetValue) {
+                    metricNumber.textContent = targetValue;
+                    clearInterval(timer);
+                } else {
+                    metricNumber.textContent = Math.floor(current);
+                }
+            }, 16);
+            
+            metricsObserver.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.5 });
+
+document.querySelectorAll('.metric-number').forEach(metric => {
+    metricsObserver.observe(metric);
 });
 
 // Parallax effect for hero background
