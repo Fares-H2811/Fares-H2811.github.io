@@ -1,120 +1,690 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fares Hesham Portfolio</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fares Hesham | Engineering-Minded Data Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-<!-- NAVBAR -->
-<nav class="navbar">
-    <div class="logo">Fares Hesham</div>
-
-    <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
-
-<!-- HERO -->
-<section id="home" class="hero">
-
-    <div class="profile-wrapper">
-        <div class="profile-frame">
-            <img src="assets/profile.jpg" alt="Fares Hesham">
-        </div>
-    </div>
-
-    <div class="hero-text">
-        <h1>Fares Hesham</h1>
-        <p>
-            Engineering student passionate about data analytics, dashboards,
-            and technology-driven insights that help businesses make smarter decisions.
-        </p>
-
-        <div class="hero-buttons">
-            <a href="assets/Fares_Hesham_CV.pdf" class="btn" download>Download CV</a>
-            <a href="#projects" class="btn-outline">View Projects</a>
-        </div>
-    </div>
-
-</section>
-
-<!-- ABOUT -->
-<section id="about" class="about">
-    <h2>About Me</h2>
-
-    <p>
-        I am an Electronics and Communication Engineering student with a strong interest
-        in data analytics, visualization, and business intelligence. I enjoy transforming
-        complex datasets into meaningful insights that support decision-making.
-    </p>
-
-</section>
-
-<!-- PROJECTS -->
-<section id="projects" class="projects">
-
-    <h2>Projects</h2>
-
-    <div class="project-grid">
-
-        <div class="project-card">
-            <img src="assets/project1.png" alt="Sales Dashboard">
-            <h3>Sales Analysis Dashboard</h3>
-            <p>Interactive Power BI dashboard analyzing sales performance and KPIs.</p>
-
-            <div class="project-buttons">
-                <a href="#" class="btn">View Details</a>
-                <a href="#" class="btn-outline">GitHub</a>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">FH</div>
+                <span class="logo-text">Fares Hesham</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
+    </nav>
 
-        <div class="project-card">
-            <img src="assets/project2.png" alt="Regional Performance">
-            <h3>Regional Sales Performance</h3>
-            <p>Regional analysis with representative performance metrics.</p>
-
-            <div class="project-buttons">
-                <a href="#" class="btn">View Details</a>
-                <a href="#" class="btn-outline">GitHub</a>
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+            <div class="circuit-pattern"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="status-badge">
+                    <span class="pulse"></span>
+                    Available for Opportunities
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="title-line">Building Systems.</span>
+                    <span class="title-line">Analyzing Data.</span>
+                    <span class="title-line gradient-text">Solving Problems.</span>
+                </h1>
+                
+                <p class="hero-description">
+                    Electronics & Communication Engineering student with a focus on embedded systems 
+                    and a parallel track in data analysis. I transform raw data into structured, 
+                    actionable insights through Excel dashboards, while expanding into SQL, Python, and Power BI.
+                </p>
+                
+                <div class="hero-tags">
+                    <span class="tag">Engineering Student</span>
+                    <span class="tag">Data Analyst</span>
+                    <span class="tag">Dashboard Creator</span>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="assets/Fares_Hesham_CV.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                    <a href="#projects" class="btn btn-secondary">
+                        <i class="fas fa-folder-open"></i>
+                        View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i>
+                        Get in Touch
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <div class="profile-container">
+                    <div class="profile-decorations">
+                        <div class="deco-circle circle-1"></div>
+                        <div class="deco-circle circle-2"></div>
+                        <div class="deco-circle circle-3"></div>
+                    </div>
+                    <div class="profile-frame">
+                        <img src="assets/profile.jpg" alt="Fares Hesham">
+                        <div class="frame-border"></div>
+                    </div>
+                    <div class="profile-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">6+</span>
+                            <span class="stat-label">Skills</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Trainings</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
 
-        <div class="project-card">
-            <img src="assets/project3.png" alt="HR Dashboard">
-            <h3>HR Analytics Dashboard</h3>
-            <p>Workforce insights including salary, performance, and overtime trends.</p>
-
-            <div class="project-buttons">
-                <a href="#" class="btn">View Details</a>
-                <a href="#" class="btn-outline">GitHub</a>
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-line-decoration"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="intro-paragraph">
+                        <p>
+                            👋 Hello! I'm an <strong>Electronics and Communication Engineering student</strong> 
+                            with a strong interest in building practical, well-structured systems — whether 
+                            in engineering projects or data-driven analysis.
+                        </p>
+                    </div>
+                    
+                    <div class="about-grid">
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <h3>Engineering Focus</h3>
+                            <p>
+                                My primary career focus is engineering, particularly <strong>embedded systems</strong> 
+                                and technical problem-solving, where I apply analytical thinking, programming 
+                                fundamentals, and system-level understanding.
+                            </p>
+                        </div>
+                        
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Data Analysis Track</h3>
+                            <p>
+                                Alongside my engineering path, I am developing a parallel track in 
+                                <strong>data analysis</strong>, where I apply an engineering mindset to data 
+                                problems. I focus on building structured, reliable, and visually clear 
+                                <strong>Excel dashboards</strong> that transform raw data into actionable insights.
+                            </p>
+                        </div>
+                        
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <h3>Design Thinking</h3>
+                            <p>
+                                With a background in <strong>graphic design</strong>, I emphasize clarity 
+                                and usability, ensuring that both technical outputs and data insights are 
+                                communicated effectively to non-technical stakeholders.
+                            </p>
+                        </div>
+                        
+                        <div class="about-card">
+                            <div class="card-icon">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <h3>Growth Mindset</h3>
+                            <p>
+                                I'm currently expanding my skill set toward <strong>SQL, Python, and Power BI</strong> 
+                                through hands-on projects. I value environments that encourage growth, 
+                                collaboration, and practical problem-solving.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-summary">
+                        <div class="summary-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>
+                            I'm at the early stage of my data journey, focused on learning deeply, 
+                            building real projects, and continuously improving. I'm open to connecting 
+                            with engineers, data professionals, and learners who appreciate structured 
+                            thinking, visual clarity, and long-term skill development.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
+    </section>
 
-    </div>
+    <!-- SKILLS -->
+    <section id="skills" class="skills">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="title-line-decoration"></div>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C / C++</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">MATLAB</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 65%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-database"></i>
+                            <h3>Data Analysis</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Excel (Advanced)</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Power BI</span>
+                                    <span class="skill-level">Learning</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 60%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">SQL</span>
+                                    <span class="skill-level">Learning</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 55%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-tools"></i>
+                            <h3>Tools & Technologies</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tech-tag">Excel Dashboards</span>
+                            <span class="tech-tag">Data Visualization</span>
+                            <span class="tech-tag">Embedded Systems</span>
+                            <span class="tech-tag">Microcontrollers</span>
+                            <span class="tech-tag">MATLAB/Simulink</span>
+                            <span class="tech-tag">Git/GitHub</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fas fa-lightbulb"></i>
+                            <h3>Soft Skills</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="tech-tag">Analytical Thinking</span>
+                            <span class="tech-tag">Problem Solving</span>
+                            <span class="tech-tag">Communication</span>
+                            <span class="tech-tag">Team Collaboration</span>
+                            <span class="tech-tag">Quick Adaptation</span>
+                            <span class="tech-tag">Visual Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-</section>
+    <!-- PROJECTS -->
+    <section id="projects" class="projects">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-line-decoration"></div>
+            </div>
+            
+            <div class="projects-content">
+                <div class="project-card featured">
+                    <div class="project-number">01</div>
+                    <div class="project-image">
+                        <img src="assets/project1.png" alt="Sales Analysis Dashboard">
+                        <div class="project-overlay">
+                            <span class="view-label">View Dashboard</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">Excel</span>
+                            <span class="project-tag">Data Analysis</span>
+                            <span class="project-tag">Dashboard</span>
+                        </div>
+                        <h3 class="project-title">Sales Analysis Dashboard</h3>
+                        <p class="project-description">
+                            Interactive Excel dashboard analyzing comprehensive sales performance metrics and KPIs. 
+                            Features dynamic filtering, trend analysis, and visual insights for decision-making. 
+                            Tracks monthly sales, regional performance, and category distributions with automated 
+                            calculations and professional visualizations.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>500+ data points analyzed</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>Interactive filters & slicers</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>Automated KPI calculations</span>
+                            </div>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Details
+                            </a>
+                            <a href="https://github.com/Fares-H2811" class="btn btn-outline" target="_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-image">
+                        <img src="assets/project2.png" alt="Regional Performance Dashboard">
+                        <div class="project-overlay">
+                            <span class="view-label">View Dashboard</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">Excel</span>
+                            <span class="project-tag">Regional Analysis</span>
+                            <span class="project-tag">Performance Metrics</span>
+                        </div>
+                        <h3 class="project-title">Regional Sales Performance Dashboard</h3>
+                        <p class="project-description">
+                            Comprehensive regional analysis dashboard tracking sales representative performance across 
+                            multiple Egyptian cities. Includes monthly trends, product category breakdowns, and 
+                            comparative analysis to identify top performers and growth opportunities.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>Multi-region comparison</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>Rep performance tracking</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>Sales level distribution</span>
+                            </div>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Details
+                            </a>
+                            <a href="https://github.com/Fares-H2811" class="btn btn-outline" target="_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-number">03</div>
+                    <div class="project-image">
+                        <img src="assets/project3.png" alt="HR Analytics Dashboard">
+                        <div class="project-overlay">
+                            <span class="view-label">View Dashboard</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">Excel</span>
+                            <span class="project-tag">HR Analytics</span>
+                            <span class="project-tag">Workforce Insights</span>
+                        </div>
+                        <h3 class="project-title">HR Analytics Dashboard</h3>
+                        <p class="project-description">
+                            Workforce analytics dashboard providing insights into employee data across departments. 
+                            Features salary analysis, performance distribution, overtime tracking, and work location 
+                            breakdown. Includes key findings and recommendations for HR decision-making.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>500+ employee records</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>6 departments analyzed</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fas fa-check"></i>
+                                <span>Performance insights</span>
+                            </div>
+                        </div>
+                        <div class="project-buttons">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-external-link-alt"></i>
+                                View Details
+                            </a>
+                            <a href="https://github.com/Fares-H2811" class="btn btn-outline" target="_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- CONTACT -->
-<section id="contact" class="contact">
+    <!-- EXPERIENCE -->
+    <section id="experience" class="experience">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Experience & Education</h2>
+                <div class="title-line-decoration"></div>
+            </div>
+            
+            <div class="experience-content">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Nov 2025 – Jun 2026</span>
+                            <h3>DEPI - Data Analyst Trainee</h3>
+                            <p class="timeline-role">Data Analyst Specialist Track</p>
+                            <p class="timeline-description">
+                                Intensive training program focusing on data analysis fundamentals, statistical methods, 
+                                and business intelligence tools. Working on real-world projects to develop practical 
+                                data analysis and visualization skills.
+                            </p>
+                            <div class="timeline-skills">
+                                <span>Data Analysis</span>
+                                <span>Excel</span>
+                                <span>Power BI</span>
+                                <span>SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Jul 2025</span>
+                            <h3>National Telecommunication Institute (NTI)</h3>
+                            <p class="timeline-role">Summer Training - Microcontroller Based Design</p>
+                            <p class="timeline-description">
+                                Hands-on training in embedded systems and microcontroller programming. Focused on 
+                                system-level design, hardware interfacing, and practical implementation of embedded solutions.
+                            </p>
+                            <div class="timeline-skills">
+                                <span>Embedded Systems</span>
+                                <span>Microcontrollers</span>
+                                <span>C Programming</span>
+                                <span>Hardware Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Oct 2023 – Present</span>
+                            <h3>Zagazig University</h3>
+                            <p class="timeline-role">B.Sc. Electronics and Communication Engineering</p>
+                            <p class="timeline-description">
+                                Pursuing a comprehensive engineering degree with focus on embedded systems, signal 
+                                processing, and communication technologies. Expected graduation: July 2028.
+                            </p>
+                            <div class="timeline-skills">
+                                <span>Engineering Fundamentals</span>
+                                <span>System Design</span>
+                                <span>Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="awards-section">
+                    <h3 class="awards-title">
+                        <i class="fas fa-trophy"></i>
+                        Honors & Awards
+                    </h3>
+                    <div class="awards-grid">
+                        <div class="award-item">
+                            <div class="award-icon">🥇</div>
+                            <h4>AMO Gold Medalist</h4>
+                            <p>American Math Olympiads - Top 78 | Dec 2021</p>
+                        </div>
+                        <div class="award-item">
+                            <div class="award-icon">📜</div>
+                            <h4>MOS Specialist</h4>
+                            <p>Microsoft Office Specialist - PowerPoint | Mar 2022</p>
+                        </div>
+                        <div class="award-item">
+                            <div class="award-icon">🥉</div>
+                            <h4>IYMC Bronze Medalist</h4>
+                            <p>International Youth Math Competition | Dec 2022</p>
+                        </div>
+                        <div class="award-item">
+                            <div class="award-icon">🌟</div>
+                            <h4>IAAC Pre-Finalist</h4>
+                            <p>International Astronomy Competition | Jul 2022</p>
+                        </div>
+                        <div class="award-item">
+                            <div class="award-icon">✓</div>
+                            <h4>MATLAB Certified</h4>
+                            <p>MATLAB & Simulink Onramp | Oct 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h2>Contact</h2>
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-line-decoration"></div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always open to discussing engineering projects, data analysis opportunities, 
+                        or collaborations. Whether you're looking for a team member on a technical project 
+                        or need data insights for your business, feel free to reach out.
+                    </p>
+                </div>
+                
+                <div class="contact-cards">
+                    <a href="https://www.linkedin.com/in/fares-hesham-a49151240" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h4>LinkedIn</h4>
+                        <p>Connect professionally</p>
+                        <span class="contact-link">@fares-hesham-a49151240 <i class="fas fa-arrow-right"></i></span>
+                    </a>
+                    
+                    <a href="https://github.com/Fares-H2811" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h4>GitHub</h4>
+                        <p>View my code</p>
+                        <span class="contact-link">@Fares-H2811 <i class="fas fa-arrow-right"></i></span>
+                    </a>
+                    
+                    <a href="mailto:fares.hesham@example.com" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email</h4>
+                        <p>Send a message</p>
+                        <span class="contact-link">fares.hesham@example.com <i class="fas fa-arrow-right"></i></span>
+                    </a>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h4>Location</h4>
+                        <p>Based in</p>
+                        <span class="contact-link">Sharqia, Egypt</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <p>Email: fares@example.com</p>
-    <p>LinkedIn: Your LinkedIn</p>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <div class="logo-icon">FH</div>
+                        <span>Fares Hesham</span>
+                    </div>
+                    <p>Engineering-minded data analyst building structured solutions.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/fares-hesham-a49151240" target="_blank">LinkedIn</a></li>
+                            <li><a href="https://github.com/Fares-H2811" target="_blank">GitHub</a></li>
+                            <li><a href="mailto:fares.hesham@example.com">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Fares Hesham. Built with precision and care.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/fares-hesham-a49151240" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Fares-H2811" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-</section>
-
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
