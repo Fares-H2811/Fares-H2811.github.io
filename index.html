@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Fares Hesham Portfolio</title>
+<title>Fares Hesham | Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -17,6 +18,7 @@
 <!-- NAVBAR -->
 <nav>
     <div class="logo">FH</div>
+
     <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -27,14 +29,15 @@
 </nav>
 
 
+
 <!-- HERO -->
 <section id="home" class="hero">
 
-<div class="hero-text">
+<div class="hero-left">
 
 <h1>Fares Hesham</h1>
 
-<h2>Electronics & Communication Engineering Student</h2>
+<h2 class="typing"></h2>
 
 <p>
 Engineering-minded data analyst building structured dashboards and technical systems
@@ -42,17 +45,26 @@ that transform complexity into clear, actionable insights.
 </p>
 
 <div class="buttons">
+
 <a href="#projects" class="btn">View Projects</a>
+
 <a href="assets/cv.pdf" class="btn secondary" download>Download CV</a>
-</div>
 
 </div>
 
-<div class="hero-image">
-<img src="assets/logo.png" alt="logo">
+</div>
+
+
+<div class="hero-right">
+
+<div class="profile-container">
+<img src="assets/profile.jpg" class="profile">
+</div>
+
 </div>
 
 </section>
+
 
 
 <!-- ABOUT -->
@@ -66,9 +78,8 @@ practical, well-structured systems — whether in engineering projects or data-d
 </p>
 
 <p>
-Alongside my engineering path, I am developing a parallel track in data analysis where I create
+Alongside my engineering path, I’m developing a parallel track in data analysis where I create
 structured and visually clear dashboards that transform raw data into actionable insights.
-I am currently expanding toward SQL, Python, and Power BI through hands-on projects.
 </p>
 
 </section>
@@ -82,22 +93,19 @@ I am currently expanding toward SQL, Python, and Power BI through hands-on proje
 
 <div class="project-grid">
 
-<div class="card">
+<div class="card" onclick="openModal('project1')">
 <img src="assets/project1.png">
 <h3>Sales Analysis Dashboard</h3>
-<p>Interactive Excel dashboard analyzing sales across regions, categories, and payment methods.</p>
 </div>
 
-<div class="card">
+<div class="card" onclick="openModal('project2')">
 <img src="assets/project2.png">
 <h3>Regional Sales Performance</h3>
-<p>Multi-dimensional analysis evaluating sales representatives and regional performance.</p>
 </div>
 
-<div class="card">
+<div class="card" onclick="openModal('project3')">
 <img src="assets/project3.png">
 <h3>HR Analytics Dashboard</h3>
-<p>Workforce analytics dashboard analyzing salaries, performance, and overtime trends.</p>
 </div>
 
 </div>
@@ -133,13 +141,10 @@ I am currently expanding toward SQL, Python, and Power BI through hands-on proje
 
 <ul>
 
-<li><b>DEPI</b> — Data Analyst Trainee (2025-2026)</li>
-
-<li><b>NTI</b> — Microcontroller Design Training (2025)</li>
-
-<li><b>Zagazig University</b> — Electronics & Communication Engineering (2023-2028)</li>
-
-<li><b>Obour STEM School</b></li>
+<li>DEPI — Data Analyst Trainee</li>
+<li>NTI — Microcontroller Training</li>
+<li>Zagazig University — Electronics Engineering</li>
+<li>Obour STEM School</li>
 
 </ul>
 
@@ -156,10 +161,18 @@ I am currently expanding toward SQL, Python, and Power BI through hands-on proje
 
 <p>
 <a href="https://github.com/Fares-H2811">GitHub</a> |
-<a href="https://linkedin.com">LinkedIn</a>
+<a href="#">LinkedIn</a>
 </p>
 
 </section>
+
+
+
+<!-- MODALS -->
+<div id="modal" class="modal">
+    <span class="close" onclick="closeModal()">×</span>
+    <img id="modal-img">
+</div>
 
 
 <script src="script.js"></script>
